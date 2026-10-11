@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de perfil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+<body>
+    <header>
+        <h1>Perfil</h1>
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Perfil</a>
+            <a href="#">Conexiones</a>
+            <button type="button">Cerrar sesión</button>
+        </nav>
+    </header>
+    <div class="contenedor">
+        <main>
+            <div class="tarjeta-perfil">
+                <div class="portada"></div>
+                <img src="fotocuadrada.png"
+                     alt="Fotografía de perfil"
+                     class="foto-perfil">
+                <div class="informacion">
+                    <h2>Constanza Arias G.</h2>
+                    <p class="ubicacion">Santiago, Chile</p>
+                    <h3>Profesora Diferencial</h3>
+                    <p>
+                        Apasionada por la educación inclusiva,
+                        la tecnología y el aprendizaje.
+                        Siempre buscando nuevas formas de enseñar y aprender.
+                    </p>
+                    <a href="#" class="Editar">
+                        <i class="bi bi-gear-fill"></i>
+                        Editar perfil
+                    </a>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <section class="solicitudes">
+                <div class="titulo-seccion">
+                    <h3>Solicitudes de conexión</h3>
+                    <a href="#" class="ver-todas">Ver todas</a>
+                </div>
+                <div class="persona">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Emma Watson</span>
+                    <button class="aceptar" aria-label="Aceptar a Emma Watson">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </button>
+                    <button class="rechazar" aria-label="Rechazar a Emma Watson">
+                        <i class="bi bi-x-circle-fill"></i>
+                    </button>
+                </div>
+                <div class="persona">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Daniel Radcliffe</span>
+                    <button class="aceptar" aria-label="Aceptar a Daniel Radcliffe">
+                        <i class="bi bi-check-circle-fill"></i>
+                    </button>
+                    <button class="rechazar" aria-label="Rechazar a Daniel Radcliffe">
+                        <i class="bi bi-x-circle-fill"></i>
+                    </button>
+                </div>
+            </section>
+            <section class="conexiones">
+                <div class="titulo-seccion">
+                    <h3>Tus conexiones</h3>
+                    <a href="#" class="ver-todas">Ver todas</a>
+                </div>
+                <div class="persona">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Ronald Weasley</span>
+                </div>
+                <div class="persona">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Severus Snape</span>
+                </div>
+                <div class="persona">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Minerva McGonagall</span>
+                </div>
+                <div class="persona">
+                    <i class="bi bi-person-circle"></i>
+                    <span>Albus Dumbledore</span>
+                </div>
+            </section>
+        </aside>
+    </div>
+</body>
+</html>

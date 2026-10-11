@@ -1,0 +1,141 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+body {
+    margin: 0;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    padding: 5px 10px;
+    font-size: 18px;    
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav {
+    display: flex;
+    gap: 30px;
+}
+button {
+    background-color: rgb(173, 177, 178);
+    color: white;
+    border-radius: 8px;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+}
+nav button:hover {
+    background-color: #2874a6;
+}
+.portada {
+    background-color: lavender;
+    height: 130px;
+    border-radius: 15px;
+}
+.tarjeta-perfil{
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+    background-color: white;
+}
+main {
+    flex: 2;
+    min-width: 0;
+}
+.foto-perfil {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    left: 50%;
+    top: 65px;
+    transform: translateX(-50%);
+}
+.informacion {
+    padding: 70px 20px 40px;
+    margin: 30px;
+}
+.ubicacion {
+    color: rgb(146, 145, 145);
+
+}
+.Editar {
+    color: purple;
+    text-decoration: none;
+    font-weight: bold;
+}
+.contenedor {
+    display: flex;
+    gap: 30px;
+    margin: 40px auto;
+    padding: 0 30px;
+    align-items: flex-start;
+    max-width: 1200px;
+}
+aside {
+    flex: 1;
+    min-width: 0;
+    flex-direction: column;
+    gap: 20px;
+    display: flex;
+}
+.solicitudes,
+.conexiones {
+    background-color: white;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+.aceptar,
+.rechazar {
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+    font-size: 22px;
+    cursor: pointer;
+}
+.aceptar {
+    color: #20b2aa;
+}
+.rechazar {
+    color: #f08080;
+}
+.aceptar:hover,
+.rechazar:hover {
+    transform: scale(1.2);
+}
+.ver-todas {
+    color: teal;
+    text-decoration: none;
+    border: 2px solid teal;
+    border-radius: 6px;
+    padding: 5px 10px;
+    font-size: 14px;
+    display: inline-block;
+}
+.ver-todas:hover {
+    background-color: teal;
+    color: white;
+}
+.titulo-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.persona {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
